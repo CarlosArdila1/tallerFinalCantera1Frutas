@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+}
+
+nav img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#container {
+    width: 300px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #5CACA3;
+    padding: 30px;
+    border: 7px solid #A69384;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.selected {
+    background-color: #ffff00;
+    padding: 4px;
+    margin: 5px;
+    width: 150px;
+}
+
+.selected:hover {
+    color: #ff00ff;
+}
+
+.even:nth-child(even) {
+    background-color: #ff00ff;
+}
+
+.odd:nth-child(odd) {
+    background-color: #ff00ff;
+}
+
+#change {
+    padding: 10px;
+    width: 80px;
+    border: 2px solid #A69384;
+}
+
+#change:hover {
+    height: 42px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
